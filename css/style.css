@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:16px;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    
+    width:100vw;
+    height:100vh;
+    background-image:linear-gradient(rgba(68, 69, 71, 0.637),rgba(68, 69, 71, 0.637)),url('../media/images/bavarian-radio-symphony.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.title{
+    color:white;
+    font-size:3rem;
+    padding:30px;
+}
+.keys{
+    display:flex;
+    justify-content:space-between;
+}
+
+.key__box{
+    display:inline-flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+    margin:0 auto;
+    width:60px;
+    height:300px;
+    color:black;
+    border:2px solid #4a4a4a; 
+    border-radius:5px;
+    background-color:rgba(255, 255, 255, 0.39);
+    transition: all 0.07s;
+}
+
+.key__box--push{
+    border-radius:3px solid #4a4a4a;
+    background-color:rgba(255, 255, 255, 0.781);
+    box-shadow: 0px 0px 4px 7px #1b1b1ba2;
+    transform:scale(1.02);
+}
+
+.text{
+    font-size:2rem;
+    color:white;
+    margin:40px;
+}
+
